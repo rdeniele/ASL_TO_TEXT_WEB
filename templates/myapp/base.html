@@ -1,0 +1,38 @@
+<!-- templates/myapp/base.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL to Text Translator</title>
+    <link href="{% static 'css/dist/output.css' %}" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-gray-50 text-black">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <h1 class="text-2xl font-bold mb-2 md:mb-0">ASL to Text Translator</h1>
+                {% if user.is_authenticated %}
+                    <span>Welcome, {{ user.username }}!</span>
+                    <div class="space-x-4">
+                        <a href="{% url 'index' %}" class="hover:text-primary-200">Home</a>
+                        <a href="{% url 'logout' %}" class="hover:text-primary-200">Logout</a>
+                    </div>
+                {% else %}
+                    <div class="space-x-4">
+                        <a href="{% url 'index' %}" class="hover:text-primary-200">Home</a>
+                        <a href="{% url 'login' %}" class="hover:text-primary-200">Login</a>
+                        <a href="{% url 'register' %}" class="hover:text-primary-200">Register</a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+    
+    <main class="container mx-auto px-4 py-8">
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>

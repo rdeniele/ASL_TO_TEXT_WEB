@@ -1,0 +1,2076 @@
+INFO 2024-11-18 23:45:42,903 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:48:50,643 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:49:47,416 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-18 23:49:48,488 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:50:12,468 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-18 23:50:13,201 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:52:14,122 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-18 23:52:14,882 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:52:30,246 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\wsgi.py changed, reloading.
+INFO 2024-11-18 23:52:31,165 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:52:36,961 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\wsgi.py changed, reloading.
+INFO 2024-11-18 23:52:37,662 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-18 23:53:01,162 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 7, in home_view
+    return render(request, 'myapp/home.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/home.html
+WARNING 2024-11-18 23:53:01,775 log Not Found: /favicon.ico
+INFO 2024-11-18 23:53:21,871 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\wsgi.py changed, reloading.
+INFO 2024-11-18 23:53:22,750 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:53:30,644 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\wsgi.py changed, reloading.
+INFO 2024-11-18 23:53:31,520 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:53:38,450 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-18 23:53:39,274 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-18 23:54:19,692 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 7, in home_view
+    return render(request, 'myapp/home.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/home.html
+INFO 2024-11-18 23:57:26,501 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-18 23:57:27,543 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:57:30,407 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-18 23:57:31,253 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:57:39,309 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-18 23:57:40,018 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:58:13,329 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-18 23:58:14,371 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:58:24,241 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-18 23:58:24,961 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:58:36,905 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-18 23:58:37,607 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:59:27,393 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-18 23:59:28,384 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-19 00:07:47,440 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 7, in home_view
+    return render(request, 'myapp/home.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/home.html
+INFO 2024-11-20 09:41:51,494 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-20 09:41:58,622 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 7, in home_view
+    return render(request, 'myapp/home.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/home.html
+WARNING 2024-11-20 09:41:58,938 log Not Found: /favicon.ico
+INFO 2024-11-20 09:50:13,288 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-20 09:50:15,166 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 09:59:02,714 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 09:59:04,404 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 09:59:15,628 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 09:59:17,336 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:00:57,638 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:00:59,185 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:01:06,092 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:01:07,699 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:01:23,966 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:01:25,617 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:01:43,858 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:01:45,319 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:01:52,128 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:01:53,570 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:02:03,514 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:19:30,467 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:20:56,870 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:20:58,684 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:21:00,699 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-20 10:21:02,197 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:21:49,724 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-20 10:21:51,408 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:21:52,826 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:21:52,859 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:21:52,863 __init__ interactive is False
+DEBUG 2024-11-20 10:21:52,864 __init__ platform is win32
+DEBUG 2024-11-20 10:21:52,990 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:21:53,009 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:22:01,196 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:22:03,112 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:22:03,112 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:22:03,113 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:22:03,113 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:22:06,216 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:22:13,109 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:22:16,267 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 10:23:55,664 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-20 10:23:59,161 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:23:59,912 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:23:59,922 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:23:59,926 __init__ interactive is False
+DEBUG 2024-11-20 10:23:59,927 __init__ platform is win32
+DEBUG 2024-11-20 10:24:00,061 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:24:00,068 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:24:04,147 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:24:05,204 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:24:05,205 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:24:05,206 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:24:05,206 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:24:06,592 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:24:10,056 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:24:11,817 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 10:24:26,760 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-20 10:24:29,333 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:24:29,880 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:24:29,889 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:24:29,893 __init__ interactive is False
+DEBUG 2024-11-20 10:24:29,893 __init__ platform is win32
+DEBUG 2024-11-20 10:24:29,997 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:24:30,004 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:24:33,318 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:24:34,184 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:24:34,184 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:24:34,185 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:24:34,185 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:24:35,115 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:24:37,918 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:24:39,620 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 10:24:46,719 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-20 10:24:49,462 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:24:50,116 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:24:50,128 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:24:50,131 __init__ interactive is False
+DEBUG 2024-11-20 10:24:50,131 __init__ platform is win32
+DEBUG 2024-11-20 10:24:50,262 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:24:50,269 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:24:53,558 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:24:54,238 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:24:54,238 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:24:54,239 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:24:54,239 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:24:55,157 path etils.epath was not found. Using pathlib for file I/O.
+INFO 2024-11-20 10:25:47,794 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-20 10:25:50,456 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:25:51,184 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:25:51,193 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:25:51,198 __init__ interactive is False
+DEBUG 2024-11-20 10:25:51,199 __init__ platform is win32
+DEBUG 2024-11-20 10:25:51,306 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:25:51,315 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:25:55,313 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:25:56,334 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:25:56,334 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:25:56,335 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:25:56,335 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:25:57,482 path etils.epath was not found. Using pathlib for file I/O.
+INFO 2024-11-20 10:27:19,746 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-20 10:27:21,946 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:27:22,562 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:27:22,573 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:27:22,576 __init__ interactive is False
+DEBUG 2024-11-20 10:27:22,577 __init__ platform is win32
+DEBUG 2024-11-20 10:27:22,693 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:27:22,700 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:27:26,172 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:27:26,862 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:27:26,863 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:27:26,863 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:27:26,864 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:27:27,882 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:27:31,152 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:27:33,408 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 10:27:44,917 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-20 10:27:47,483 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:27:48,027 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:27:48,036 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:27:48,039 __init__ interactive is False
+DEBUG 2024-11-20 10:27:48,040 __init__ platform is win32
+DEBUG 2024-11-20 10:27:48,139 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:27:48,145 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:27:51,624 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:27:52,439 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:27:52,439 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:27:52,439 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:27:52,440 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:27:53,368 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:27:56,024 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:27:57,613 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 10:28:01,715 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:28:01,717 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 10:30:06,881 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-20 10:30:09,798 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:30:10,469 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:30:10,483 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:30:10,486 __init__ interactive is False
+DEBUG 2024-11-20 10:30:10,486 __init__ platform is win32
+DEBUG 2024-11-20 10:30:10,596 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:30:10,606 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:30:14,952 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:30:15,919 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:30:15,920 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:30:15,920 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:30:15,920 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:30:17,293 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:30:20,931 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:30:22,794 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 10:31:19,907 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:31:19,912 log Not Found: /static/js/webcam.js
+WARNING 2024-11-20 10:31:21,430 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:31:21,433 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 10:35:19,371 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-20 10:35:22,725 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:35:23,420 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:35:23,429 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:35:23,433 __init__ interactive is False
+DEBUG 2024-11-20 10:35:23,433 __init__ platform is win32
+DEBUG 2024-11-20 10:35:23,542 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:35:23,549 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:35:27,595 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:35:28,529 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:35:28,529 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:35:28,530 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:35:28,530 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:35:29,895 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:35:33,257 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:35:35,046 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 10:36:28,123 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:36:28,126 log Not Found: /static/js/webcam.js
+WARNING 2024-11-20 10:36:33,414 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:36:33,417 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 10:37:50,208 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:37:52,980 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:37:53,552 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:37:53,562 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:37:53,566 __init__ interactive is False
+DEBUG 2024-11-20 10:37:53,567 __init__ platform is win32
+DEBUG 2024-11-20 10:37:53,665 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:37:53,672 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:37:57,072 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:37:57,962 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:37:57,963 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:37:57,963 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:37:57,964 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:37:58,954 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:38:02,083 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:38:03,756 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 10:38:08,804 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:38:08,805 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 10:39:21,414 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:39:21,962 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:39:21,974 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:39:21,977 __init__ interactive is False
+DEBUG 2024-11-20 10:39:21,977 __init__ platform is win32
+DEBUG 2024-11-20 10:39:22,085 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:39:22,093 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:39:25,517 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:39:26,360 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:39:26,375 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:39:26,375 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:39:26,376 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:39:27,544 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:39:30,834 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:39:32,564 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 10:40:00,973 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:40:03,540 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 10:41:42,019 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:41:42,895 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:41:42,908 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:41:42,913 __init__ interactive is False
+DEBUG 2024-11-20 10:41:42,914 __init__ platform is win32
+DEBUG 2024-11-20 10:41:43,029 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:41:43,037 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:41:47,077 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:41:47,980 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:41:47,981 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:41:47,981 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:41:47,981 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:41:49,569 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:41:53,355 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:41:55,155 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 10:42:01,111 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:42:01,115 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 10:43:01,626 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 10:43:05,174 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:43:05,753 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:43:05,763 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:43:05,766 __init__ interactive is False
+DEBUG 2024-11-20 10:43:05,766 __init__ platform is win32
+DEBUG 2024-11-20 10:43:05,900 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:43:05,909 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:43:09,242 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:43:10,215 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:43:10,215 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:43:10,215 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:43:10,216 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:43:11,212 path etils.epath was not found. Using pathlib for file I/O.
+INFO 2024-11-20 10:44:37,437 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 10:44:37,995 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 10:44:38,008 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:44:38,011 __init__ interactive is False
+DEBUG 2024-11-20 10:44:38,012 __init__ platform is win32
+DEBUG 2024-11-20 10:44:38,129 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 10:44:38,138 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 10:44:41,666 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 10:44:42,372 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:44:42,372 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:44:42,372 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 10:44:42,373 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 10:44:43,350 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 10:44:45,996 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 10:44:47,520 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 10:44:52,063 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:44:52,069 log Not Found: /static/js/webcam.js
+WARNING 2024-11-20 10:44:59,304 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:45:02,329 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 10:45:02,350 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 23:26:21,177 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:26:22,884 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:26:22,902 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:26:22,905 __init__ interactive is False
+DEBUG 2024-11-20 23:26:22,905 __init__ platform is win32
+DEBUG 2024-11-20 23:26:22,989 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:26:23,001 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:26:28,321 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:26:29,832 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:26:29,832 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:26:29,832 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:26:29,833 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:26:32,209 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:26:36,865 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:26:38,139 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 23:26:43,432 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 23:26:43,440 log Not Found: /static/js/webcam.js
+WARNING 2024-11-20 23:26:43,547 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 23:26:43,812 log Not Found: /favicon.ico
+WARNING 2024-11-20 23:26:50,910 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 23:26:50,912 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 23:26:57,650 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-20 23:26:59,945 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:27:00,798 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:27:00,806 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:27:00,809 __init__ interactive is False
+DEBUG 2024-11-20 23:27:00,809 __init__ platform is win32
+DEBUG 2024-11-20 23:27:00,888 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:27:00,892 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:27:04,180 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:27:04,928 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:27:04,928 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:27:04,929 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:27:04,929 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:27:05,994 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:27:08,864 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:27:10,778 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 23:27:29,081 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 23:27:29,084 log Not Found: /static/js/webcam.js
+WARNING 2024-11-20 23:27:45,900 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 23:27:45,904 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 23:29:10,309 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 23:29:12,838 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:29:13,287 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:29:13,294 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:29:13,296 __init__ interactive is False
+DEBUG 2024-11-20 23:29:13,296 __init__ platform is win32
+DEBUG 2024-11-20 23:29:13,365 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:29:13,370 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:29:16,167 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:29:16,819 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:29:16,820 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:29:16,820 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:29:16,820 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:29:17,859 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:29:20,269 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:29:21,790 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:31:04,318 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-20 23:31:07,595 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:31:08,276 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:31:08,284 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:31:08,287 __init__ interactive is False
+DEBUG 2024-11-20 23:31:08,288 __init__ platform is win32
+DEBUG 2024-11-20 23:31:08,388 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:31:08,393 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:31:11,388 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:31:12,086 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:31:12,086 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:31:12,086 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:31:12,087 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:31:13,192 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:31:15,817 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:31:17,206 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:31:30,388 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-20 23:31:32,590 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:31:33,010 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:31:33,021 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:31:33,024 __init__ interactive is False
+DEBUG 2024-11-20 23:31:33,024 __init__ platform is win32
+DEBUG 2024-11-20 23:31:33,096 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:31:33,100 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:31:35,304 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:31:35,730 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:31:35,730 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:31:35,730 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:31:35,730 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:31:36,596 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:31:38,358 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:31:39,613 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:31:46,543 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-20 23:31:48,351 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:31:48,673 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:31:48,678 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:31:48,681 __init__ interactive is False
+DEBUG 2024-11-20 23:31:48,682 __init__ platform is win32
+DEBUG 2024-11-20 23:31:48,748 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:31:48,753 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:31:50,928 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:31:51,342 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:31:51,342 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:31:51,342 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:31:51,342 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:31:51,974 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:31:53,572 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:31:54,635 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:32:20,848 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-20 23:32:22,820 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 23:32:27,073 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-20 23:32:27,778 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:32:28,133 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:32:28,140 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:32:28,142 __init__ interactive is False
+DEBUG 2024-11-20 23:32:28,142 __init__ platform is win32
+DEBUG 2024-11-20 23:32:28,213 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:32:28,217 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:32:30,691 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:32:31,217 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:32:31,217 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:32:31,217 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:32:31,217 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:32:31,934 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:32:33,541 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:32:34,646 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:33:03,245 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-20 23:33:04,968 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:33:05,305 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:33:05,310 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:33:05,313 __init__ interactive is False
+DEBUG 2024-11-20 23:33:05,313 __init__ platform is win32
+DEBUG 2024-11-20 23:33:05,369 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:33:05,373 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:33:07,469 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:33:07,888 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:33:07,888 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:33:07,888 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:33:07,888 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:33:08,501 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:33:10,114 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:33:11,171 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:33:35,269 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-20 23:33:37,178 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:33:37,560 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:33:37,566 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:33:37,568 __init__ interactive is False
+DEBUG 2024-11-20 23:33:37,569 __init__ platform is win32
+DEBUG 2024-11-20 23:33:37,626 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:33:37,630 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:33:39,749 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:33:40,187 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:33:40,187 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:33:40,187 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:33:40,187 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:33:40,820 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:33:42,515 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:33:43,508 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 23:33:52,402 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 23:33:52,403 log Not Found: /static/js/webcam.js
+INFO 2024-11-20 23:40:40,091 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\urls.py changed, reloading.
+INFO 2024-11-20 23:40:41,901 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:40:42,349 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:40:42,357 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:40:42,360 __init__ interactive is False
+DEBUG 2024-11-20 23:40:42,360 __init__ platform is win32
+DEBUG 2024-11-20 23:40:42,436 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:40:42,441 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:40:45,523 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:40:46,050 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:40:46,051 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:40:46,051 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:40:46,051 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:40:46,786 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:40:48,816 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:40:50,008 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 23:40:58,945 log Not Found: /static/css/dist/output.css
+WARNING 2024-11-20 23:40:58,947 log Not Found: /static/js/webcam.js
+WARNING 2024-11-20 23:41:05,259 log Not Found: /static/css/dist/output.css
+INFO 2024-11-20 23:41:20,107 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:41:20,472 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:41:20,478 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:41:20,481 __init__ interactive is False
+DEBUG 2024-11-20 23:41:20,481 __init__ platform is win32
+DEBUG 2024-11-20 23:41:20,542 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:41:20,547 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:41:22,789 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:41:23,286 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:41:23,287 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:41:23,287 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:41:23,287 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:41:24,206 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:41:26,065 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:41:27,104 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:44:06,882 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\ASL_TO_TEXT_WEB\settings.py changed, reloading.
+INFO 2024-11-20 23:44:32,648 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:44:32,990 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:44:32,998 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:44:33,000 __init__ interactive is False
+DEBUG 2024-11-20 23:44:33,001 __init__ platform is win32
+DEBUG 2024-11-20 23:44:33,068 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:44:33,073 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:44:35,698 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:44:36,278 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:44:36,278 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:44:36,278 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:44:36,278 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:44:37,104 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:44:39,268 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:44:40,375 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 23:44:55,006 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000197188055A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-20 23:44:55,009 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000197188055A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO 2024-11-20 23:46:53,969 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-20 23:46:56,480 autoreload Watching for file changes with StatReloader
+INFO 2024-11-20 23:47:08,116 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-20 23:47:08,930 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:47:09,290 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:47:09,297 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:47:09,299 __init__ interactive is False
+DEBUG 2024-11-20 23:47:09,299 __init__ platform is win32
+DEBUG 2024-11-20 23:47:09,365 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:47:09,369 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:47:12,258 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:47:12,912 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:47:12,912 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:47:12,912 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:47:12,912 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:47:13,772 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:47:16,300 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:47:17,490 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:47:35,154 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-20 23:47:37,382 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:47:37,742 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:47:37,748 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:47:37,750 __init__ interactive is False
+DEBUG 2024-11-20 23:47:37,750 __init__ platform is win32
+DEBUG 2024-11-20 23:47:37,812 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:47:37,816 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:47:39,767 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:47:40,200 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:47:40,200 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:47:40,201 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:47:40,201 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:47:40,761 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:47:42,169 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:47:43,179 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:48:08,091 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-20 23:48:09,694 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:48:10,175 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:48:10,182 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:48:10,184 __init__ interactive is False
+DEBUG 2024-11-20 23:48:10,184 __init__ platform is win32
+DEBUG 2024-11-20 23:48:10,240 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:48:10,244 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:48:12,214 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:48:12,656 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:48:12,656 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:48:12,656 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:48:12,657 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:48:13,437 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:48:15,288 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:48:16,402 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 23:48:54,848 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025ABFDD1BD0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-20 23:48:54,850 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025ABFDD1BD0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO 2024-11-20 23:49:44,598 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-20 23:49:46,432 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:49:46,743 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:49:46,748 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:49:46,750 __init__ interactive is False
+DEBUG 2024-11-20 23:49:46,750 __init__ platform is win32
+DEBUG 2024-11-20 23:49:46,808 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:49:46,812 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:49:49,048 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:49:49,555 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:49:49,555 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:49:49,555 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:49:49,555 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:49:50,649 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:49:53,017 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:49:54,547 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-20 23:57:31,004 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-20 23:57:31,476 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-20 23:57:31,483 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:57:31,485 __init__ interactive is False
+DEBUG 2024-11-20 23:57:31,485 __init__ platform is win32
+DEBUG 2024-11-20 23:57:31,568 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-20 23:57:31,573 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-20 23:57:34,517 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-20 23:57:35,172 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:57:35,173 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:57:35,174 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-20 23:57:35,174 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-20 23:57:36,191 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-20 23:57:38,703 attrs Creating converter from 3 to 5
+WARNING 2024-11-20 23:57:39,918 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-20 23:58:42,321 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000021326335090> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-20 23:58:42,324 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000021326335090> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+ERROR 2024-11-21 00:06:41,444 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 15, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2024-11-21 00:08:47,760 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 15, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+INFO 2024-11-21 00:09:40,912 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 00:09:43,369 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 00:09:43,928 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 00:09:43,935 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:09:43,938 __init__ interactive is False
+DEBUG 2024-11-21 00:09:43,938 __init__ platform is win32
+DEBUG 2024-11-21 00:09:44,013 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:09:44,017 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 00:09:46,911 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 00:09:47,526 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:09:47,526 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:09:47,526 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:09:47,526 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:09:48,530 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 00:09:51,253 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 00:09:52,712 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 00:10:04,839 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 00:10:06,613 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 00:10:06,980 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 00:10:06,988 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:10:06,990 __init__ interactive is False
+DEBUG 2024-11-21 00:10:06,990 __init__ platform is win32
+DEBUG 2024-11-21 00:10:07,056 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:10:07,060 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 00:10:09,267 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 00:10:09,699 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:10:09,699 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:10:09,699 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:10:09,699 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:10:10,354 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 00:10:12,006 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 00:10:13,138 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 00:10:42,471 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 00:10:44,171 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 00:10:44,502 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 00:10:44,509 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:10:44,511 __init__ interactive is False
+DEBUG 2024-11-21 00:10:44,511 __init__ platform is win32
+DEBUG 2024-11-21 00:10:44,568 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:10:44,572 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 00:10:46,635 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 00:10:47,025 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:10:47,025 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:10:47,025 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:10:47,025 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:10:47,602 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 00:10:49,022 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 00:10:50,054 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 00:11:18,428 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 00:11:20,132 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 00:11:20,499 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 00:11:20,505 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:11:20,508 __init__ interactive is False
+DEBUG 2024-11-21 00:11:20,508 __init__ platform is win32
+DEBUG 2024-11-21 00:11:20,566 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:11:20,571 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 00:11:22,728 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 00:11:23,157 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:11:23,158 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:11:23,158 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:11:23,158 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:11:23,772 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 00:11:25,498 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 00:11:26,745 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 00:12:20,239 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 00:12:21,981 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 00:12:22,390 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 00:12:22,398 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:12:22,400 __init__ interactive is False
+DEBUG 2024-11-21 00:12:22,401 __init__ platform is win32
+DEBUG 2024-11-21 00:12:22,463 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:12:22,469 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 00:12:24,677 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 00:12:25,149 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:12:25,150 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:12:25,150 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:12:25,150 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:12:26,016 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 00:12:27,678 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 00:12:28,681 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+ERROR 2024-11-21 00:12:33,545 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 25, in login_view
+    return render(request, 'myapp/login.html', {'form': form})
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/login.html
+INFO 2024-11-21 00:47:02,250 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 00:47:02,792 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 00:47:02,800 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:47:02,801 __init__ interactive is False
+DEBUG 2024-11-21 00:47:02,802 __init__ platform is win32
+DEBUG 2024-11-21 00:47:02,878 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 00:47:02,884 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 00:47:06,803 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 00:47:07,635 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:47:07,635 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:47:07,636 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 00:47:07,636 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 00:47:08,969 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 00:47:11,711 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 00:47:12,884 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+ERROR 2024-11-21 00:47:19,553 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 25, in login_view
+    return render(request, 'myapp/login.html', {'form': form})
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 701, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 611, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'addclass'
+ERROR 2024-11-21 00:47:28,347 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 25, in login_view
+    return render(request, 'myapp/login.html', {'form': form})
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 701, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 611, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'addclass'
+ERROR 2024-11-21 00:47:31,696 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 25, in login_view
+    return render(request, 'myapp/login.html', {'form': form})
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 701, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 611, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'addclass'
+ERROR 2024-11-21 00:51:19,348 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+KeyError: 'custom_filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 25, in login_view
+    return render(request, 'myapp/login.html', {'form': form})
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'custom_filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-11-21 01:08:30,174 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 25, in login_view
+    return render(request, 'myapp/login.html', {'form': form})
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-11-21 01:08:31,635 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 25, in login_view
+    return render(request, 'myapp/login.html', {'form': form})
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-11-21 01:10:00,233 log Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 25, in login_view
+    return render(request, 'myapp/login.html', {'form': form})
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+WARNING 2024-11-21 01:29:23,057 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001D48818E5F0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-21 01:29:23,060 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001D48818E5F0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-21 01:37:27,744 log Not Found: /favicon.ico
+ERROR 2024-11-21 02:00:17,813 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 44, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 519, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 536, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'myapp/base.html'> must be the first tag in the template.
+INFO 2024-11-21 02:10:05,952 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 02:10:10,175 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:10:11,014 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:10:11,022 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:10:11,024 __init__ interactive is False
+DEBUG 2024-11-21 02:10:11,024 __init__ platform is win32
+DEBUG 2024-11-21 02:10:11,104 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:10:11,111 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:10:15,189 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:10:16,187 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:10:16,187 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:10:16,187 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:10:16,187 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:10:17,537 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:10:20,841 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:10:21,997 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:12:35,295 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:12:37,302 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:12:37,772 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:12:37,777 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:12:37,779 __init__ interactive is False
+DEBUG 2024-11-21 02:12:37,779 __init__ platform is win32
+DEBUG 2024-11-21 02:12:37,850 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:12:37,855 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:12:40,632 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:12:41,195 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:12:41,196 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:12:41,196 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:12:41,196 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:12:42,063 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:12:44,786 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:12:46,430 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:12:49,522 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:12:51,155 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:12:51,487 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:12:51,494 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:12:51,496 __init__ interactive is False
+DEBUG 2024-11-21 02:12:51,496 __init__ platform is win32
+DEBUG 2024-11-21 02:12:51,556 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:12:51,560 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:12:53,888 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:12:54,312 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:12:54,312 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:12:54,312 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:12:54,312 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:12:54,878 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:12:56,416 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:12:57,439 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-21 02:13:01,202 base Method Not Allowed (GET): /logout/
+WARNING 2024-11-21 02:13:01,203 log Method Not Allowed: /logout/
+INFO 2024-11-21 02:13:05,488 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:13:07,393 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:13:07,813 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:13:07,817 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:13:07,819 __init__ interactive is False
+DEBUG 2024-11-21 02:13:07,819 __init__ platform is win32
+DEBUG 2024-11-21 02:13:07,874 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:13:07,877 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:13:09,937 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:13:10,357 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:13:10,357 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:13:10,358 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:13:10,358 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:13:10,927 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:13:12,615 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:13:13,609 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:13:26,222 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:13:27,907 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:13:28,248 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:13:28,253 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:13:28,256 __init__ interactive is False
+DEBUG 2024-11-21 02:13:28,256 __init__ platform is win32
+DEBUG 2024-11-21 02:13:28,313 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:13:28,316 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:13:30,417 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:13:30,873 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:13:30,873 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:13:30,873 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:13:30,874 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:13:31,491 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:13:33,102 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:13:34,082 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-21 02:13:39,771 base Method Not Allowed (GET): /logout/
+WARNING 2024-11-21 02:13:39,772 log Method Not Allowed: /logout/
+INFO 2024-11-21 02:13:55,374 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:13:56,977 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:13:57,323 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:13:57,329 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:13:57,331 __init__ interactive is False
+DEBUG 2024-11-21 02:13:57,331 __init__ platform is win32
+DEBUG 2024-11-21 02:13:57,391 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:13:57,396 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:13:59,452 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:13:59,927 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:13:59,928 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:13:59,928 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:13:59,928 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:14:00,557 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:14:02,130 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:14:03,121 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:14:14,512 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:14:16,104 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:14:16,462 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:14:16,468 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:14:16,470 __init__ interactive is False
+DEBUG 2024-11-21 02:14:16,470 __init__ platform is win32
+DEBUG 2024-11-21 02:14:16,525 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:14:16,529 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:14:18,875 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:14:19,397 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:14:19,398 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:14:19,398 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:14:19,398 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:14:20,091 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:14:22,063 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:14:23,197 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:14:58,309 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:15:00,707 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:15:01,146 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:15:01,152 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:15:01,154 __init__ interactive is False
+DEBUG 2024-11-21 02:15:01,155 __init__ platform is win32
+DEBUG 2024-11-21 02:15:01,221 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:15:01,226 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:15:03,779 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:15:04,329 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:15:04,329 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:15:04,329 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:15:04,329 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:15:04,993 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:15:06,725 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:15:07,734 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+ERROR 2024-11-21 02:15:11,522 log Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: logout_view() got an unexpected keyword argument 'next_page'
+INFO 2024-11-21 02:15:20,078 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:15:21,794 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:15:22,197 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:15:22,202 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:15:22,204 __init__ interactive is False
+DEBUG 2024-11-21 02:15:22,205 __init__ platform is win32
+DEBUG 2024-11-21 02:15:22,277 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:15:22,281 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:15:24,336 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:15:24,745 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:15:24,746 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:15:24,746 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:15:24,746 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:15:25,278 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:15:26,827 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:15:27,838 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:15:41,346 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:15:43,122 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:15:43,450 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:15:43,457 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:15:43,460 __init__ interactive is False
+DEBUG 2024-11-21 02:15:43,461 __init__ platform is win32
+DEBUG 2024-11-21 02:15:43,531 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:15:43,535 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:15:46,054 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:15:46,490 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:15:46,491 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:15:46,491 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:15:46,491 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:15:47,487 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:15:49,260 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:15:50,311 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:16:36,723 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 02:16:38,317 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:16:38,663 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:16:38,668 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:16:38,670 __init__ interactive is False
+DEBUG 2024-11-21 02:16:38,670 __init__ platform is win32
+DEBUG 2024-11-21 02:16:38,725 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:16:38,729 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:16:40,824 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:16:41,313 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:16:41,313 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:16:41,313 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:16:41,313 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:16:41,959 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:16:43,742 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:16:44,816 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:16:48,375 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 02:16:49,823 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:16:50,165 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:16:50,173 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:16:50,174 __init__ interactive is False
+DEBUG 2024-11-21 02:16:50,175 __init__ platform is win32
+DEBUG 2024-11-21 02:16:50,238 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:16:50,244 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:16:52,451 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:16:53,047 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:16:53,048 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:16:53,048 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:16:53,048 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:16:53,717 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:16:55,433 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:16:56,430 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:17:18,875 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 02:17:20,247 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:17:20,556 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:17:20,567 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:17:20,570 __init__ interactive is False
+DEBUG 2024-11-21 02:17:20,571 __init__ platform is win32
+DEBUG 2024-11-21 02:17:20,667 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:17:20,674 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:17:22,740 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:17:23,164 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:17:23,164 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:17:23,164 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:17:23,165 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:17:23,811 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:17:25,324 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:17:26,374 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:17:46,729 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 02:17:48,649 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:17:48,965 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:17:48,973 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:17:48,975 __init__ interactive is False
+DEBUG 2024-11-21 02:17:48,976 __init__ platform is win32
+DEBUG 2024-11-21 02:17:49,032 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:17:49,036 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:17:51,387 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:17:51,914 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:17:51,914 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:17:51,914 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:17:51,915 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:17:52,513 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:17:54,243 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:17:55,378 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:21:28,762 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-21 02:21:31,400 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:21:31,952 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:21:31,958 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:21:31,960 __init__ interactive is False
+DEBUG 2024-11-21 02:21:31,960 __init__ platform is win32
+DEBUG 2024-11-21 02:21:32,029 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:21:32,035 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:21:35,522 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:21:36,181 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:21:36,181 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:21:36,182 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:21:36,182 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:21:37,196 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:21:39,945 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:21:41,244 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-21 02:21:49,068 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-21 02:21:51,188 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-21 02:21:51,813 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-21 02:21:51,831 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:21:51,835 __init__ interactive is False
+DEBUG 2024-11-21 02:21:51,837 __init__ platform is win32
+DEBUG 2024-11-21 02:21:51,948 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-21 02:21:51,957 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-21 02:21:54,539 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-21 02:21:54,918 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:21:54,918 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:21:54,918 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-21 02:21:54,919 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-21 02:21:55,463 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-21 02:21:56,845 attrs Creating converter from 3 to 5
+WARNING 2024-11-21 02:21:57,834 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+ERROR 2024-11-21 02:23:20,228 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 47, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 976, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 17: 'if'. Looking for one of: endif.
+ERROR 2024-11-21 02:35:47,083 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 47, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 976, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 16: 'if'. Looking for one of: endif.
+ERROR 2024-11-21 02:36:08,187 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 47, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 976, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 16: 'if'. Looking for one of: endif.
+ERROR 2024-11-21 02:36:10,547 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 47, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 976, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 16: 'if'. Looking for one of: endif.
+ERROR 2024-11-21 02:36:13,445 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 47, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 976, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 16: 'if'. Looking for one of: endif.
+INFO 2024-11-24 23:31:49,415 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-24 23:31:51,235 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-24 23:31:51,256 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-24 23:31:51,258 __init__ interactive is False
+DEBUG 2024-11-24 23:31:51,258 __init__ platform is win32
+DEBUG 2024-11-24 23:31:51,340 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-24 23:31:51,354 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-24 23:31:57,047 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-24 23:31:58,633 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-24 23:31:58,633 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-24 23:31:58,633 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-24 23:31:58,635 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-24 23:32:01,145 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-24 23:32:06,079 attrs Creating converter from 3 to 5
+WARNING 2024-11-24 23:32:07,439 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+ERROR 2024-11-24 23:32:18,600 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 48, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+WARNING 2024-11-24 23:32:19,448 log Not Found: /favicon.ico
+ERROR 2024-11-24 23:34:17,576 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 48, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 962, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 16: 'if'. Looking for one of: elif, else, endif.
+ERROR 2024-11-24 23:34:18,730 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 48, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\defaulttags.py", line 962, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 16: 'if'. Looking for one of: elif, else, endif.
+INFO 2024-11-24 23:38:13,791 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-24 23:38:16,141 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-24 23:38:16,667 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-24 23:38:16,675 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-24 23:38:16,676 __init__ interactive is False
+DEBUG 2024-11-24 23:38:16,677 __init__ platform is win32
+DEBUG 2024-11-24 23:38:16,752 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-24 23:38:16,757 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-24 23:38:19,706 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-24 23:38:20,380 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-24 23:38:20,380 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-24 23:38:20,380 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-24 23:38:20,381 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-24 23:38:21,255 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-24 23:38:23,642 attrs Creating converter from 3 to 5
+WARNING 2024-11-24 23:38:24,870 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-24 23:38:42,711 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-24 23:38:44,576 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-24 23:38:45,025 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-24 23:38:45,038 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-24 23:38:45,042 __init__ interactive is False
+DEBUG 2024-11-24 23:38:45,043 __init__ platform is win32
+DEBUG 2024-11-24 23:38:45,127 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-24 23:38:45,130 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-24 23:38:47,466 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-24 23:38:47,944 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-24 23:38:47,944 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-24 23:38:47,944 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-24 23:38:47,945 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-24 23:38:48,600 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-24 23:38:50,361 attrs Creating converter from 3 to 5
+WARNING 2024-11-24 23:38:51,407 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+ERROR 2024-11-25 00:16:33,684 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 18, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 4: 'block'. Looking for one of: endblock.
+ERROR 2024-11-25 00:17:06,874 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py", line 18, in index
+    return render(request, 'myapp/index.html')
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 523, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 4: 'block'. Looking for one of: endblock.
