@@ -2074,3 +2074,381 @@ Traceback (most recent call last):
   File "C:\Users\ronde\PROJECTS\venv\lib\site-packages\django\template\base.py", line 586, in unclosed_block_tag
     raise self.error(token, msg)
 django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 4: 'block'. Looking for one of: endblock.
+INFO 2024-11-25 00:34:04,072 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-25 00:34:14,730 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 00:34:17,519 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 00:34:17,549 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 00:34:17,551 __init__ interactive is False
+DEBUG 2024-11-25 00:34:17,553 __init__ platform is win32
+DEBUG 2024-11-25 00:34:17,677 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 00:34:17,713 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 00:34:29,465 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 00:34:32,397 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 00:34:32,397 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 00:34:32,398 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 00:34:32,398 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 00:34:36,629 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 00:35:01,280 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 00:35:07,144 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-25 00:35:27,059 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001ECB69B1BD0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-25 00:35:27,073 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001ECB69B1BD0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO 2024-11-25 12:33:12,234 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 12:33:15,513 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 12:33:15,550 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 12:33:15,555 __init__ interactive is False
+DEBUG 2024-11-25 12:33:15,555 __init__ platform is win32
+DEBUG 2024-11-25 12:33:15,750 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 12:33:15,781 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 12:33:23,495 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 12:33:25,647 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 12:33:25,647 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 12:33:25,648 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 12:33:25,649 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 12:33:28,896 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 12:33:35,673 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 12:33:37,769 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-25 12:33:43,696 log Not Found: /favicon.ico
+WARNING 2024-11-25 12:39:17,535 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001874004DD80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-25 12:39:17,542 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001874004DD80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO 2024-11-25 12:52:10,982 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-25 12:52:17,246 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 12:52:18,350 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 12:52:18,364 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 12:52:18,367 __init__ interactive is False
+DEBUG 2024-11-25 12:52:18,368 __init__ platform is win32
+DEBUG 2024-11-25 12:52:18,531 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 12:52:18,545 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 12:52:24,431 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 12:52:25,877 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 12:52:25,877 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 12:52:25,878 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 12:52:25,878 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 12:52:27,784 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 12:52:33,607 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 12:52:35,552 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-25 12:52:53,203 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000216A979D630> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-25 12:52:53,204 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000216A979D630> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO 2024-11-25 12:56:35,728 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-25 12:56:39,772 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 12:56:40,702 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 12:56:40,712 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 12:56:40,716 __init__ interactive is False
+DEBUG 2024-11-25 12:56:40,716 __init__ platform is win32
+DEBUG 2024-11-25 12:56:40,840 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 12:56:40,849 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 12:56:46,312 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 12:56:47,551 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 12:56:47,553 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 12:56:47,553 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 12:56:47,554 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 12:56:49,361 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 12:56:53,404 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 12:56:55,506 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-25 12:57:21,624 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000023726044EE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-25 12:57:21,628 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000023726044EE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO 2024-11-25 13:14:53,464 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\asl_processor.py changed, reloading.
+INFO 2024-11-25 13:14:58,127 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 13:14:58,949 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 13:14:58,962 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 13:14:58,966 __init__ interactive is False
+DEBUG 2024-11-25 13:14:58,966 __init__ platform is win32
+DEBUG 2024-11-25 13:14:59,091 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 13:14:59,103 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 13:15:05,583 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 13:15:06,703 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 13:15:06,704 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 13:15:06,704 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 13:15:06,704 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 13:15:08,390 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 13:15:12,866 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 13:15:15,217 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-25 13:15:53,638 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000019DE9992050> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-25 13:15:53,643 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000019DE9992050> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO 2024-11-25 20:37:27,555 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:37:29,877 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:37:29,916 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:37:29,920 __init__ interactive is False
+DEBUG 2024-11-25 20:37:29,921 __init__ platform is win32
+DEBUG 2024-11-25 20:37:30,119 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:37:30,140 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:37:41,224 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:37:42,979 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:37:42,980 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:37:42,980 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:37:42,981 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:37:45,344 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:37:50,192 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:37:52,261 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-25 20:39:44,182 log Not Found: /favicon.ico
+INFO 2024-11-25 20:54:20,171 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:54:20,917 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:54:20,925 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:54:20,927 __init__ interactive is False
+DEBUG 2024-11-25 20:54:20,927 __init__ platform is win32
+DEBUG 2024-11-25 20:54:21,002 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:54:21,007 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:54:24,490 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:54:25,274 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:54:25,275 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:54:25,275 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:54:25,275 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:54:26,475 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:54:29,154 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:54:30,379 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-25 20:54:43,189 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001768A410940> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-25 20:54:43,191 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001768A410940> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO 2024-11-25 20:55:23,100 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\models.py changed, reloading.
+INFO 2024-11-25 20:55:25,153 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:55:25,545 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:55:25,550 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:55:25,552 __init__ interactive is False
+DEBUG 2024-11-25 20:55:25,553 __init__ platform is win32
+DEBUG 2024-11-25 20:55:25,640 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:55:25,644 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:55:28,046 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:55:28,516 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:55:28,516 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:55:28,516 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:55:28,517 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:55:29,186 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:55:31,077 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:55:32,129 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 20:55:43,742 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\admin.py changed, reloading.
+INFO 2024-11-25 20:55:45,432 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:55:45,735 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:55:45,741 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:55:45,743 __init__ interactive is False
+DEBUG 2024-11-25 20:55:45,743 __init__ platform is win32
+DEBUG 2024-11-25 20:55:45,807 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:55:45,813 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:55:47,863 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:55:48,300 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:55:48,300 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:55:48,300 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:55:48,301 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:55:48,989 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:55:50,681 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:55:51,881 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 20:55:56,080 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\admin.py changed, reloading.
+INFO 2024-11-25 20:55:57,940 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:55:58,302 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:55:58,309 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:55:58,312 __init__ interactive is False
+DEBUG 2024-11-25 20:55:58,312 __init__ platform is win32
+DEBUG 2024-11-25 20:55:58,390 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:55:58,396 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:56:00,892 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:56:01,378 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:56:01,378 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:56:01,378 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:56:01,378 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:56:02,085 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:56:03,961 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:56:05,127 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 20:56:28,078 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-25 20:56:29,856 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:56:30,258 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:56:30,263 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:56:30,265 __init__ interactive is False
+DEBUG 2024-11-25 20:56:30,266 __init__ platform is win32
+DEBUG 2024-11-25 20:56:30,329 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:56:30,333 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:56:32,541 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:56:32,995 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:56:32,996 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:56:32,996 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:56:32,996 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:56:33,629 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:56:35,403 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:56:36,508 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 20:56:54,305 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-25 20:56:56,794 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:56:57,159 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:56:57,164 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:56:57,166 __init__ interactive is False
+DEBUG 2024-11-25 20:56:57,166 __init__ platform is win32
+DEBUG 2024-11-25 20:56:57,233 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:56:57,237 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:56:59,411 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:56:59,934 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:56:59,934 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:56:59,934 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:56:59,934 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:57:00,589 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:57:02,640 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:57:03,845 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+DEBUG 2024-11-25 20:57:14,690 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:57:14,696 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:57:14,697 __init__ interactive is False
+DEBUG 2024-11-25 20:57:14,698 __init__ platform is win32
+DEBUG 2024-11-25 20:57:14,760 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:57:14,765 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:57:17,001 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:57:17,515 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:57:17,515 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:57:17,515 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:57:17,516 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:57:18,211 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:57:20,092 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:57:21,220 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+DEBUG 2024-11-25 20:57:29,235 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:57:29,244 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:57:29,246 __init__ interactive is False
+DEBUG 2024-11-25 20:57:29,246 __init__ platform is win32
+DEBUG 2024-11-25 20:57:29,311 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:57:29,316 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:57:31,565 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:57:31,991 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:57:31,991 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:57:31,992 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:57:31,992 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:57:32,596 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:57:34,155 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:57:35,245 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 20:57:47,348 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:57:47,669 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:57:47,675 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:57:47,676 __init__ interactive is False
+DEBUG 2024-11-25 20:57:47,677 __init__ platform is win32
+DEBUG 2024-11-25 20:57:47,735 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:57:47,738 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:57:50,008 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:57:50,524 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:57:50,524 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:57:50,524 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:57:50,525 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:57:51,223 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:57:53,258 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:57:54,380 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+DEBUG 2024-11-25 20:58:13,939 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:58:13,947 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:58:13,950 __init__ interactive is False
+DEBUG 2024-11-25 20:58:13,950 __init__ platform is win32
+DEBUG 2024-11-25 20:58:14,009 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:58:14,013 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:58:15,998 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:58:16,391 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:58:16,391 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:58:16,393 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:58:16,393 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:58:16,965 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:58:18,476 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:58:19,522 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 20:58:44,584 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 20:58:44,929 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 20:58:44,934 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:58:44,936 __init__ interactive is False
+DEBUG 2024-11-25 20:58:44,936 __init__ platform is win32
+DEBUG 2024-11-25 20:58:45,005 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 20:58:45,009 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 20:58:47,248 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 20:58:47,702 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:58:47,702 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:58:47,703 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 20:58:47,703 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 20:58:48,361 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 20:58:50,230 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 20:58:51,493 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 21:01:14,402 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-25 21:01:16,857 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 21:01:17,713 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 21:01:17,721 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:01:17,723 __init__ interactive is False
+DEBUG 2024-11-25 21:01:17,724 __init__ platform is win32
+DEBUG 2024-11-25 21:01:17,816 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:01:17,822 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 21:01:20,889 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 21:01:21,635 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:01:21,636 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:01:21,636 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:01:21,636 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:01:23,150 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 21:01:26,111 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 21:01:27,557 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 21:04:00,988 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-25 21:04:05,298 autoreload Watching for file changes with StatReloader
+INFO 2024-11-25 21:05:13,193 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-25 21:05:13,921 autoreload Watching for file changes with StatReloader
+INFO 2024-11-25 21:05:21,242 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-25 21:05:21,987 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 21:05:22,419 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 21:05:22,426 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:05:22,429 __init__ interactive is False
+DEBUG 2024-11-25 21:05:22,429 __init__ platform is win32
+DEBUG 2024-11-25 21:05:22,502 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:05:22,506 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 21:05:25,405 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 21:05:26,144 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:05:26,145 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:05:26,145 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:05:26,145 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:05:27,110 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 21:05:29,352 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 21:05:30,646 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 21:36:45,075 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 21:36:45,697 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 21:36:45,706 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:36:45,708 __init__ interactive is False
+DEBUG 2024-11-25 21:36:45,708 __init__ platform is win32
+DEBUG 2024-11-25 21:36:45,794 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:36:45,799 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 21:36:50,166 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 21:36:50,887 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:36:50,888 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:36:50,888 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:36:50,888 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:36:52,118 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 21:36:55,661 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 21:36:57,424 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 21:55:07,484 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\views.py changed, reloading.
+INFO 2024-11-25 21:55:10,903 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 21:55:11,451 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 21:55:11,458 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:55:11,460 __init__ interactive is False
+DEBUG 2024-11-25 21:55:11,460 __init__ platform is win32
+DEBUG 2024-11-25 21:55:11,534 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:55:11,539 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 21:55:14,919 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 21:55:15,553 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:55:15,553 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:55:15,554 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:55:15,554 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:55:16,473 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 21:55:19,293 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 21:55:20,647 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO 2024-11-25 21:55:43,709 autoreload C:\Users\ronde\PROJECTS\ASL_TO_TEXT_WEB\myapp\urls.py changed, reloading.
+INFO 2024-11-25 21:55:46,048 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-25 21:55:46,484 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-25 21:55:46,494 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:55:46,496 __init__ interactive is False
+DEBUG 2024-11-25 21:55:46,497 __init__ platform is win32
+DEBUG 2024-11-25 21:55:46,589 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-25 21:55:46,592 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-25 21:55:49,206 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-25 21:55:49,798 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:55:49,799 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:55:49,799 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-25 21:55:49,799 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-25 21:55:50,582 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-25 21:55:53,390 attrs Creating converter from 3 to 5
+WARNING 2024-11-25 21:55:54,794 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-25 22:06:15,382 log Not Found: /media/feedback/feedback_1732543570.jpg
+WARNING 2024-11-25 22:06:23,443 log Not Found: /media/feedback/feedback_1732543570.jpg
+INFO 2024-11-26 08:38:58,075 autoreload Watching for file changes with StatReloader
+DEBUG 2024-11-26 08:39:01,300 __init__ matplotlib data path: C:\Users\ronde\PROJECTS\venv\lib\site-packages\matplotlib\mpl-data
+DEBUG 2024-11-26 08:39:01,333 __init__ CONFIGDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-26 08:39:01,337 __init__ interactive is False
+DEBUG 2024-11-26 08:39:01,337 __init__ platform is win32
+DEBUG 2024-11-26 08:39:01,538 __init__ CACHEDIR=C:\Users\ronde\.matplotlib
+DEBUG 2024-11-26 08:39:01,566 font_manager Using fontManager instance from C:\Users\ronde\.matplotlib\fontlist-v390.json
+DEBUG 2024-11-26 08:39:18,847 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2024-11-26 08:39:22,415 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-26 08:39:22,416 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-26 08:39:22,417 __init__ Creating converter from 7 to 5
+DEBUG 2024-11-26 08:39:22,418 __init__ Creating converter from 5 to 7
+DEBUG 2024-11-26 08:39:26,124 path etils.epath was not found. Using pathlib for file I/O.
+DEBUG 2024-11-26 08:39:36,055 attrs Creating converter from 3 to 5
+WARNING 2024-11-26 08:39:42,040 saving_utils Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING 2024-11-26 08:39:55,450 log Not Found: /favicon.ico
+WARNING 2024-11-26 08:40:13,424 polymorphic_function 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000226738EC3A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING 2024-11-26 08:40:13,429 polymorphic_function 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000226738EC3A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
