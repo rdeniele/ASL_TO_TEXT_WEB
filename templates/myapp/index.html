@@ -5,11 +5,6 @@
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     {% if user.is_authenticated %}
     <div class="py-8">
-        <!-- Model Switch Button -->
-        <button id="modelSwitchBtn" 
-                class="mb-4 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition">
-            Switch to {% if request.path == '/' %} Basic ASL Gestures {% else %}Basic ASL{% endif %} Model
-        </button>
         <!-- Webcam Section -->
         <div class="card bg-white p-6 rounded-lg shadow-md">
             <h2 class="text-xl font-bold mb-4 text-gray-800">ASL Detection</h2>
@@ -39,7 +34,6 @@
         
             <!-- Feedback Section -->
             <div class="mt-6 border-t pt-4">
-                
                 <h3 class="text-lg font-semibold mb-3 text-gray-800">Help Improve ASL Detection</h3>
                 
                 <!-- Capture/Upload Controls -->
@@ -89,7 +83,7 @@
     {% else %}
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="py-8">
-            <div class="container1 flex-col-reverse md:flex-row items-center justify-between gap-8 mb-12">
+            <div class="flex flex-col-reverse md:flex-row items-center justify-between gap-8 mb-12">
                 <!-- Text Section -->
                 <div class="text-section flex-1 w-full md:max-w-[50%] pr-0 md:pr-5 mb-6 md:mb-0">
                     <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold text-[#2f4f4f] leading-snug sm:leading-tight mb-6 transition-all duration-300 hover:scale-105">
@@ -135,23 +129,7 @@
             </div>
             <div class="text-section">
                 <h3 class="text-2xl font-bold text-[#2f4f4f] leading-tight mb-6">
-                    3. Model Selection
-                </h3>
-                <div class="description text-lg text-gray-700 mb-8 text-justify leading-relaxed">
-                    To change from Basic Alphabet to Basic ASL Gestures, click on the "Switch to Basic ASL Model" button. The Basic ASL model recognizes 10 common ASL signs. Moreover,you can switch back to the Basic Alphabet model.
-                </div>
-            </div>
-            <div class="text-section">
-                <h3 class="text-2xl font-bold text-[#2f4f4f] leading-tight mb-6">
-                    4. Provide Feedback
-                </h3>
-                <div class="description text-lg text-gray-700 mb-8 text-justify leading-relaxed">
-                    To help improve our system you may provide feedback by capturing the current frame, uploading an image or video, and submitting feedback with the correct sign and additional notes. The developers will keep on improving the system.
-                </div>
-            </div>
-            <div class="text-section">
-                <h3 class="text-2xl font-bold text-[#2f4f4f] leading-tight mb-6">
-                    5. Enjoy the Experience
+                    3. Enjoy the Experience
                 </h3>
                 <div class="description text-lg text-gray-700 mb-8 text-justify leading-relaxed">
                     Enjoy! Use the ASL detection feature to translate your signs into text and speech. Communicate with others using our system and help bridge the gap between the hearing and the deaf community.
