@@ -1,0 +1,221 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    {% if user.is_authenticated %}
+    <div class="py-8">
+        <!-- Model Switch Button -->
+        <button id="modelSwitchBtn" 
+                class="mb-4 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition"
+                data-loading="false">
+            <span class="default-text">Switch to Basic ASL</span>
+            <span class="loading-text hidden">Switching...</span>
+        </button>
+        <!-- Webcam Section -->
+        <div class="card bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-bold mb-4 text-gray-800">ASL Detection</h2>
+            <div class="relative aspect-video bg-gray-900 rounded-lg overflow-hidden">
+                <video id="webcam" class="absolute inset-0 w-full h-full object-cover" autoplay playsinline></video>
+                <canvas id="overlay" class="absolute inset-0 w-full h-full"></canvas>
+            </div>
+            
+            <!-- Prediction Display -->
+            <div class="mt-4 space-y-3">
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600 font-medium">Current Sign:</span>
+                    <span id="prediction" class="text-2xl font-bold text-primary-600">-</span>
+                </div>
+        
+                <!-- Confidence Bar -->
+                {% comment %} <div>
+                    <div class="flex justify-between text-sm text-gray-600 mb-1">
+                        <span>Confidence</span>
+                        <span id="confidence">0%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div id="confidence-bar" class="bg-primary-600 h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+                    </div>
+                </div> {% endcomment %}
+            </div>
+        </br>
+            <!-- Feedback Section -->
+            <div class="mt-6 border-t pt-4">
+                <h3 class="text-lg font-semibold mb-3 text-gray-800">Help Improve ASL Detection</h3>
+                
+                <!-- Capture/Upload Controls -->
+                <div class="space-y-4">
+                    <div class="flex space-x-3">
+                        <button id="captureBtn" class="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition">
+                            Capture Current Frame
+                        </button>
+                        <div class="relative">
+                            <input type="file" id="uploadInput" accept=".jpg,.jpeg,.png,.gif,.webp,.bmp,.mp4,.webm,.ogg,.mov,image/*,video/*" class="hidden" />
+                            <button onclick="document.getElementById('uploadInput').click()" class="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition">
+                                Upload Image/Video
+                            </button>
+                        </div>
+                    </div>
+        
+                    <!-- Preview Area -->
+                    <div id="previewArea" class="hidden">
+                        <div class="relative aspect-video bg-gray-100 rounded-lg overflow-hidden">
+                            <img id="imagePreview" class="absolute inset-0 w-full h-full object-contain" alt="Preview" />
+                            <video id="videoPreview" class="absolute inset-0 w-full h-full object-contain" controls></video>
+                        </div>
+                    </div>
+        
+                    <!-- Feedback Form -->
+                    <div id="feedbackForm" class="hidden space-y-3">
+                        <div>
+                            <label for="correctSign" class="block text-sm font-medium text-gray-700 mb-1">Correct Sign</label>
+                            <input type="text" id="correctSign" name="correctSign" 
+                                   class="w-full px-3 py-2 border rounded-md focus:ring-primary-500 focus:border-primary-500" 
+                                   placeholder="Enter the correct sign/word">
+                        </div>
+                        <div>
+                            <label for="notes" class="block text-sm font-medium text-gray-700 mb-1">Additional Notes</label>
+                            <textarea id="notes" name="notes" rows="2" 
+                                    class="w-full px-3 py-2 border rounded-md focus:ring-primary-500 focus:border-primary-500"
+                                    placeholder="Any additional information about the sign"></textarea>
+                        </div>
+                        <button id="submitFeedback" class="w-full px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition">
+                            Submit Feedback
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="py-8">
+            <div class="container1 flex-col-reverse md:flex-row items-center justify-between gap-8 mb-12">
+                <!-- Text Section -->
+                <div class="text-section flex-1 w-full md:max-w-[50%] pr-0 md:pr-5 mb-6 md:mb-0">
+                    <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold text-[#2f4f4f] leading-snug sm:leading-tight mb-6 transition-all duration-300 hover:scale-105">
+                        YOUR VOICE,<br>OUR VISION
+                    </h1>
+                    <div class="description text-sm sm:text-base md:text-lg text-gray-700 mb-8 text-justify leading-relaxed">
+                        Welcome to <em>Sign it On</em>, where sign language connects with spoken words. We empower individuals with hearing disabilities by translating ASL into text and speech, making communication accessible and inclusive. Join us in bridging the gap, one word at a time.
+                    </div>
+                </div>
+                <!-- Image Section -->
+                <div class="image-section flex-1 w-full md:max-w-[50%] flex justify-center items-center border-4 border-inset rounded-lg">
+                    <img src="https://img.freepik.com/free-vector/deaf-mute-people-concept-illustration_114360-23206.jpg" 
+                        alt="ASL image" 
+                        class="w-full h-auto max-w-xs sm:max-w-sm md:max-w-full border border-[#2f4f4f] hover:shadow-xl transition duration-300 transform hover:scale-105 rounded-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="separator my-12">
+        <hr class="border-dotted border-2 border-gray-400">
+    </div>
+    <div> 
+        <h2 class="text-4xl font-semibold text-center text-[#2f4f4f] mb-8 mt-20">
+            HOW IT WORKS
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-section">
+                <h3 class="text-2xl font-bold text-[#2f4f4f] leading-tight mb-6">
+                    1. Login/Register
+                </h3>
+                <div class="description text-lg text-gray-700 mb-8 text-justify leading-relaxed">
+                    To start using our system, you need to create an account or log in if you already have one. This will allow you to access the ASL detection feature.
+                </div>
+            </div>
+            <div class="text-section">
+                <h3 class="text-2xl font-bold text-[#2f4f4f] leading-tight mb-6">
+                    2. ASL Detection
+                </h3>
+                <div class="description text-lg text-gray-700 mb-8 text-justify leading-relaxed">
+                    Our system uses a webcam to detect and recognize American Sign Language (ASL) gestures in real-time. The model is trained to recognize the 26 letters of the ASL alphabet.
+                </div>
+            </div>
+            <div class="text-section">
+                <h3 class="text-2xl font-bold text-[#2f4f4f] leading-tight mb-6">
+                    3. Enjoy the Experience
+                </h3>
+                <div class="description text-lg text-gray-700 mb-8 text-justify leading-relaxed">
+                    Enjoy! Use the ASL detection feature to translate your signs into text and speech. Communicate with others using our system and help bridge the gap between the hearing and the deaf community.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separator my-12">
+        <hr class="border-dotted border-2 border-gray-400">
+    </div>
+
+    <div class="educational-section py-8">
+        <h2 class="text-4xl font-semibold text-center text-[#2f4f4f] mb-8">
+            SIGN LANGUAGE GUIDE
+        </h2>
+        <div class="educational-images">
+            <img src="https://img.freepik.com/premium-vector/sign-language-set-with-deaf-hand-set-symbols-flat-isolated-illustration_1284-60323.jpg?w=1380" 
+                 alt="Sign Language Alphabet Guide" 
+                 title="Sign Language Alphabet Reference" class="rounded-lg shadow-xl">
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+{% if user.is_authenticated %}
+<script src="{% static 'js/webcam.js' %}"></script>
+{% endif %}
+
+<style>
+    {% if not user.is_authenticated %}
+    .text-section h1 {
+        font-size: 2.5em;
+        color: #2f4f4f;
+        margin: 0;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    @media (min-width: 768px) {
+        .text-section h1 {
+            font-size: 4em;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (min-width: 768px) {
+        .buttons {
+            flex-direction: row;
+        }
+    }
+
+    .educational-images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 30px 0;
+    }
+
+    .educational-images img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+        .educational-images {
+            flex-direction: column;
+        }
+        .educational-images img {
+            width: 100%;
+        }
+    }
+    {% endif %}
+</style>
+{% endblock %}

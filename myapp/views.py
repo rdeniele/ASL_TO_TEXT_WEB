@@ -47,6 +47,11 @@ def logout_view(request):
     logout(request)
     return redirect('index')
 
+
+@login_required
+def rnn_detection(request):
+    return render(request, 'myapp/rnn_detection.html')
+
 @csrf_exempt
 def process_asl(request):
     if request.method == 'POST':
@@ -176,4 +181,39 @@ def preprocess_media(request):
                 'error': str(e)
             })
     
+    return JsonResponse({'success': False, 'error': 'Invalid request method'})
+
+@csrf_exempt 
+def switch_model(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            model_type = data.get('model')
+            if asl_processor.set_model(model_type):
+                return JsonResponse({'success': True})
+            return JsonResponse({'success': False, 'error': 'Invalid model type'})
+        except Exception as e:
+            return JsonResponse({'success': False, 'error': str(e)})
+    return JsonResponse({'success': False, 'error': 'Invalid request method'})
+
+@csrf_exempt
+def process_asl(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            image_data = data.get('image')
+            model_type = data.get('model', 'cnn')  # Default to CNN if not specified
+            
+            # Set the model type before processing
+            asl_processor.set_model(model_type)
+            
+            # Process the image using the selected model
+            result = asl_processor.process_image(image_data)
+            return JsonResponse({
+                'success': True,
+                'prediction': result['prediction'],
+                'confidence': result['confidence']
+            })
+        except Exception as e:
+            return JsonResponse({'success': False, 'error': str(e)})
     return JsonResponse({'success': False, 'error': 'Invalid request method'})
