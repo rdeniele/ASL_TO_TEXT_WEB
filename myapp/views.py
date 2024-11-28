@@ -177,3 +177,33 @@ def preprocess_media(request):
             })
     
     return JsonResponse({'success': False, 'error': 'Invalid request method'})
+
+@csrf_exempt
+def process_asl_rnn(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            image_data = data.get('image')
+            
+            # Convert base64 to image
+            image_bytes = base64.b64decode(image_data.split(',')[1])
+            nparr = np.frombuffer(image_bytes, np.uint8)
+            frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+            
+            # Create RNN processor instance
+            rnn_processor = ASLProcessor(model_type='rnn')
+            result = rnn_processor.process_frame(frame)
+            
+            return JsonResponse({
+                'success': True,
+                'prediction': result['prediction'],
+                'confidence': result['confidence']
+            })
+            
+        except Exception as e:
+            return JsonResponse({
+                'success': False,
+                'error': str(e)
+            })
+    
+    return JsonResponse({'success': False, 'error': 'Invalid request method'})

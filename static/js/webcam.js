@@ -1,4 +1,6 @@
 // static/js/webcam.js
+let currentDetectionType = 'cnn';
+
 let video = document.getElementById('webcam');
 let predictionElement = document.getElementById('prediction');
 // let confidenceElement = document.getElementById('confidence');
@@ -15,6 +17,14 @@ let submitFeedback = document.getElementById('submitFeedback');
 
 const SUPPORTED_IMAGE_FORMATS = ['image/jpeg', 'image/png', 'image/gif', 'image/webp', 'image/bmp'];
 const SUPPORTED_VIDEO_FORMATS = ['video/mp4', 'video/webm', 'video/ogg', 'video/quicktime'];
+
+document.getElementById('cnnBtn').addEventListener('click', () => {
+    currentDetectionType = 'cnn';
+});
+
+document.getElementById('rnnBtn').addEventListener('click', () => {
+    currentDetectionType = 'rnn';
+});
 
 // Initialize webcam
 async function setupWebcam() {
@@ -42,13 +52,16 @@ async function processFrame() {
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
     const ctx = canvas.getContext('2d');
-
+    
     setInterval(() => {
         ctx.drawImage(video, 0, 0);
         const imageData = canvas.toDataURL('image/jpeg');
-
-        // api fetching
-        fetch('/api/process-asl/', {
+        
+        const endpoint = currentDetectionType === 'cnn' 
+            ? '/api/process-asl/'
+            : '/api/process-asl-rnn/';
+        
+        fetch(endpoint, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -60,13 +73,9 @@ async function processFrame() {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                if (predictionElement) {
-                    predictionElement.textContent = data.prediction;
-                }
-                // if (confidenceElement) {
-                //     confidenceElement.textContent = 
-                //         `${(data.confidence * 100).toFixed(2)}%`;
-                // }
+                predictionElement.textContent = data.prediction;
+                confidenceElement.textContent = 
+                    `${(data.confidence * 100).toFixed(2)}%`;
             }
         })
         .catch(error => console.error('Error:', error));

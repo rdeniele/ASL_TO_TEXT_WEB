@@ -5,6 +5,14 @@
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     {% if user.is_authenticated %}
     <div class="py-8">
+        <div class="button-container">
+            <button id="cnnBtn" class="detection-btn" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;">
+                BASIC ASL ALPHABETS
+            </button>
+            <button id="rnnBtn" class="detection-btn" style="padding: 10px 20px; background-color: #008CBA; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                BASIC ASL GESTURES
+            </button>
+        </div>
         <!-- Webcam Section -->
         <div class="card bg-white p-6 rounded-lg shadow-md">
             <h2 class="text-xl font-bold mb-4 text-gray-800">ASL Detection</h2>
