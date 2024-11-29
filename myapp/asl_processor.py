@@ -9,6 +9,7 @@ import cv2
 import mediapipe as mp
 import numpy as np
 import pickle
+import time
 
 class ASLProcessorBase:
     def __init__(self):
@@ -168,6 +169,7 @@ class ASLProcessorRNN(ASLProcessorBase):
         self.label_encoder = None
         self.load_model_and_encoder()
         self.initialized = True
+        self.paused = False  # Add a paused flag
 
     def load_model_and_encoder(self):
         if self.model is None or self.label_encoder is None:
@@ -197,14 +199,20 @@ class ASLProcessorRNN(ASLProcessorBase):
 
     def predict(self, preprocessed):
         try:
+            if self.paused:
+                return {
+                    'prediction': 'Paused',
+                    'confidence': 0.0
+                }
+
             self.frame_sequence.append(preprocessed)
             print(f"Frame sequence length: {len(self.frame_sequence)}")
 
             if len(self.frame_sequence) == self.sequence_length:
                 try:
                     sequence = np.array(list(self.frame_sequence))
-                    print(f"Sequence shape before expand_dims: {sequence.shape}")
-                    sequence = np.squeeze(sequence, axis=2)  # Remove the extra dimension
+                    print(f"Sequence shape before squeeze: {sequence.shape}")
+                    sequence = np.squeeze(sequence, axis=1)  # Remove the extra dimension
                     print(f"Sequence shape after squeeze: {sequence.shape}")
                     sequence = np.expand_dims(sequence, axis=0)
                     print(f"Sequence shape after expand_dims: {sequence.shape}")
@@ -222,6 +230,11 @@ class ASLProcessorRNN(ASLProcessorBase):
                     confidence = float(predictions[0][predicted_class_index])
                     predicted_label = self.label_encoder.inverse_transform([predicted_class_index])[0]
 
+                    # Clear the frame sequence after prediction
+                    self.frame_sequence.clear()
+                    self.paused = True  # Pause after prediction
+
+                    # Flash the prediction to the web
                     return {
                         'prediction': predicted_label,
                         'confidence': confidence
@@ -243,6 +256,9 @@ class ASLProcessorRNN(ASLProcessorBase):
                 'prediction': 'Error',
                 'confidence': 0.0
             }
+
+    def resume(self):
+        self.paused = False  # Resume frame collection
 
 # Define ASLProcessor as a factory function to create instances of ASLProcessorCNN or ASLProcessorRNN
 def ASLProcessor(model_type='cnn'):
