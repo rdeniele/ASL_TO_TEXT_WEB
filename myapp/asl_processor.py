@@ -258,7 +258,7 @@ class ASLProcessorRNN(ASLProcessorBase):
             }
 
     def resume(self):
-        self.paused = False  # Resume frame collection
+        self.paused = False  
 
 # Define ASLProcessor as a factory function to create instances of ASLProcessorCNN or ASLProcessorRNN
 def ASLProcessor(model_type='cnn'):
