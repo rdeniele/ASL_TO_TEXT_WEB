@@ -13,7 +13,7 @@ import pickle
 
 class ASLProcessor:
     def __init__(self, model_type='cnn'):
-        # Initialize MediaPipe
+        # Initialize MediaPipe and basic parameters first
         self.mp_hands = mp.solutions.hands
         self.hands = self.mp_hands.Hands(
             static_image_mode=True,
@@ -21,11 +21,11 @@ class ASLProcessor:
             min_detection_confidence=0.7
         )
         
-        # Set model parameters
         self.model_type = model_type
         self.img_size = 224
         self.sequence_length = 30
         self.frame_sequence = deque(maxlen=self.sequence_length)
+        self.prediction_history = deque(maxlen=5)
         
         try:
             # Clear any existing TF session
@@ -34,56 +34,31 @@ class ASLProcessor:
             # Get base directory for models and data
             base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             
-            if model_type == 'cnn':
-                # Load CNN model using proper path joining
-                model_path = os.path.join(base_dir, 'ml_models', 'asl_mobilenetv2_model.h5')
-                encoder_path = os.path.join(base_dir, 'ml_data', 'labels', 'cnn_label_encoder.pkl')
-                
-                # Verify files exist
-                if not os.path.exists(model_path):
-                    raise FileNotFoundError(f"CNN model not found at {model_path}")
-                if not os.path.exists(encoder_path):
-                    raise FileNotFoundError(f"Label encoder not found at {encoder_path}")
-                
-                # Load model
-                self.model = tf.keras.models.load_model(model_path, compile=False)
-                self.model.compile(
-                    optimizer='adam',
-                    loss='categorical_crossentropy',
-                    metrics=['accuracy']
-                )
-                
-                # Load label encoder
-                with open(encoder_path, 'rb') as f:
-                    self.label_encoder = pickle.load(f)
-                    
-            else:  # RNN
-                # Load RNN model using proper path joining
+            # Set paths based on model type
+            if model_type == 'rnn':
                 model_path = os.path.join(base_dir, 'ml_models', 'rnn_asl_model.h5')
                 encoder_path = os.path.join(base_dir, 'ml_data', 'labels', 'rnn_label_encoder.pkl')
-                
-                # Verify files exist
-                if not os.path.exists(model_path):
-                    raise FileNotFoundError(f"RNN model not found at {model_path}")
-                if not os.path.exists(encoder_path):
-                    raise FileNotFoundError(f"Label encoder not found at {encoder_path}")
-                
-                # Load model
-                self.model = tf.keras.models.load_model(model_path, compile=False)
-                self.model.compile(
-                    optimizer='adam',
-                    loss='categorical_crossentropy',
-                    metrics=['accuracy']
-                )
-                
-                # Load label encoder
-                with open(encoder_path, 'rb') as f:
-                    self.label_encoder = pickle.load(f)
+            else:  # default to CNN
+                model_path = os.path.join(base_dir, 'ml_models', 'asl_mobilenetv2_model.h5')
+                encoder_path = os.path.join(base_dir, 'ml_data', 'labels', 'cnn_label_encoder.pkl')
             
+            # Verify files exist
+            if not os.path.exists(model_path):
+                raise FileNotFoundError(f"Model not found at {model_path}")
+            if not os.path.exists(encoder_path):
+                raise FileNotFoundError(f"Label encoder not found at {encoder_path}")
+            
+            # Load model without recompilation
+            self.model = tf.keras.models.load_model(model_path, compile=False)
+            
+            # Load label encoder
+            with open(encoder_path, 'rb') as f:
+                self.label_encoder = pickle.load(f)
+                
         except Exception as e:
             print(f"Error initializing {model_type} model: {str(e)}")
             raise
-
+        
         # Initialize drawing utilities
         self.mp_drawing = mp.solutions.drawing_utils
         self.mp_drawing_styles = mp.solutions.drawing_styles
