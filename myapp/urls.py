@@ -7,6 +7,7 @@ urlpatterns = [
     path('api/process-asl-rnn/', views.process_asl_rnn, name='process_asl_rnn'),
     path('api/submit-feedback/', views.submit_feedback, name='submit_feedback'),
     path('api/preprocess-media/', views.preprocess_media, name='preprocess_media'),
+    path('resume-prediction/', views.resume_prediction, name='resume_prediction'),
     path('login/', views.login_view, name='login'),
     path('logout/', views.logout_view, name='logout'),
     path('register/', views.register_view, name='register'),

@@ -27,6 +27,29 @@ document.getElementById('rnnBtn').addEventListener('click', () => {
     currentDetectionType = 'rnn';
 });
 
+document.getElementById('resumeButton').addEventListener('click', function() {
+    fetch('/resume-prediction/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}'  // Ensure CSRF token is included
+        },
+        body: JSON.stringify({})
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Prediction resumed successfully.');
+        } else {
+            alert('Failed to resume prediction.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred while resuming prediction.');
+    });
+});
+
 // Initialize webcam
 async function setupWebcam() {
     try {

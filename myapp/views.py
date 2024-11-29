@@ -16,6 +16,7 @@ from django.core.files.base import ContentFile
 
 
 asl_processor = ASLProcessor()
+processor = ASLProcessor(model_type='rnn')
 
 
 def index(request):
@@ -46,6 +47,17 @@ def register_view(request):
 def logout_view(request):
     logout(request)
     return redirect('index')
+
+@csrf_exempt
+def resume_prediction(request):
+    if request.method == 'POST':
+        try:
+            processor.resume()
+            return JsonResponse({'success': True})
+        except Exception as e:
+            print(f"Error resuming prediction: {str(e)}")
+            return JsonResponse({'success': False, 'error': str(e)})
+    return JsonResponse({'success': False, 'error': 'Invalid request method'})
 
 @csrf_exempt
 def process_asl(request):
