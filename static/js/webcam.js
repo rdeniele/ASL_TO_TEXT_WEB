@@ -14,6 +14,7 @@ let videoPreview = document.getElementById('videoPreview');
 let feedbackForm = document.getElementById('feedbackForm');
 let submitFeedback = document.getElementById('submitFeedback');
 
+let processingInterval;
 
 const SUPPORTED_IMAGE_FORMATS = ['image/jpeg', 'image/png', 'image/gif', 'image/webp', 'image/bmp'];
 const SUPPORTED_VIDEO_FORMATS = ['video/mp4', 'video/webm', 'video/ogg', 'video/quicktime'];
@@ -48,38 +49,54 @@ async function setupWebcam() {
 
 // Process frames and send to backend
 async function processFrame() {
+    if (processingInterval) {
+        clearInterval(processingInterval);
+    }
+
     const canvas = document.createElement('canvas');
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
     const ctx = canvas.getContext('2d');
     
-    setInterval(() => {
-        ctx.drawImage(video, 0, 0);
-        const imageData = canvas.toDataURL('image/jpeg');
-        
-        const endpoint = currentDetectionType === 'cnn' 
-            ? '/api/process-asl/'
-            : '/api/process-asl-rnn/';
-        
-        fetch(endpoint, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                image: imageData
+    processingInterval = setInterval(() => {
+        try {
+            ctx.drawImage(video, 0, 0);
+            const imageData = canvas.toDataURL('image/jpeg');
+            
+            const endpoint = currentDetectionType === 'cnn' 
+                ? '/api/process-asl/'
+                : '/api/process-asl-rnn/';
+            
+            fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    image: imageData
+                })
             })
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                predictionElement.textContent = data.prediction;
-                confidenceElement.textContent = 
-                    `${(data.confidence * 100).toFixed(2)}%`;
-            }
-        })
-        .catch(error => console.error('Error:', error));
-    }, 100);
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    predictionElement.textContent = data.prediction;
+                    confidenceElement.textContent = 
+                        `${(data.confidence * 100).toFixed(2)}%`;
+                }
+            })
+            .catch(error => {
+                console.error('Connection error:', error);
+                // Stop the interval on error
+                if (processingInterval) {
+                    clearInterval(processingInterval);
+                }
+                // Restart after a delay
+                setTimeout(() => processFrame(), 1000);
+            });
+        } catch (error) {
+            console.error('Processing error:', error);
+        }
+    }, 200); 
 }
 
 // Feedback HITL part

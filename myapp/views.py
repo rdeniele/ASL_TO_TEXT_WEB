@@ -59,21 +59,28 @@ def process_asl(request):
             nparr = np.frombuffer(image_bytes, np.uint8)
             frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
             
-            # Process the frame
-            result = asl_processor.process_frame(frame)
+            # Process the frame with error handling
+            try:
+                result = asl_processor.process_frame(frame)
+                response = {
+                    'success': True,
+                    'prediction': result['prediction'],
+                    'confidence': result['confidence']
+                }
+            except Exception as e:
+                response = {
+                    'success': False, 
+                    'error': f'Processing error: {str(e)}'
+                }
+                
+            return JsonResponse(response)
             
-            return JsonResponse({
-                'success': True,
-                'prediction': result['prediction'],
-                'confidence': result['confidence']
-            })
-            
+        except ConnectionAbortedError:
+            # Handle broken pipe silently
+            return JsonResponse({'success': False, 'error': 'Connection closed'})
         except Exception as e:
-            return JsonResponse({
-                'success': False,
-                'error': str(e)
-            })
-    
+            return JsonResponse({'success': False, 'error': str(e)})
+            
     return JsonResponse({'success': False, 'error': 'Invalid request method'})
 
 # FEEDBACK HITL PART
