@@ -11,6 +11,8 @@ import numpy as np
 import pickle
 import time
 from concurrent.futures import ThreadPoolExecutor
+import pygame
+from gtts import gTTS
 
 
 class ASLProcessorBase:
@@ -22,9 +24,24 @@ class ASLProcessorBase:
             max_num_hands=1,
             min_detection_confidence=0.7
         )
+        pygame.init()
+        pygame.mixer.init()
         self.mp_drawing = mp.solutions.drawing_utils
         self.mp_drawing_styles = mp.solutions.drawing_styles
 
+    def play_audio(self, text):
+        try:
+            tts = gTTS(text=text, lang='en')
+            audio_filename = f"temp_{int(time.time())}.mp3"
+            tts.save(audio_filename)
+            pygame.mixer.music.load(audio_filename)
+            pygame.mixer.music.play()
+            while pygame.mixer.music.get_busy():
+                pygame.time.Clock().tick(10)
+            os.remove(audio_filename)
+        except Exception as e:
+            print(f"Error playing audio: {e}")
+        
     def extract_landmarks(self, hand_landmarks):
         landmarks = []
         for lm in hand_landmarks.landmark:
@@ -139,6 +156,9 @@ class ASLProcessorCNN(ASLProcessorBase):
             confidence = float(predictions[0][predicted_class_index])
             predicted_label = self.label_encoder.inverse_transform([predicted_class_index])[0]
 
+            # Play audio for the predicted label
+            self.play_audio(predicted_label)
+
             return {
                 'prediction': predicted_label,
                 'confidence': confidence
@@ -237,6 +257,9 @@ class ASLProcessorRNN(ASLProcessorBase):
 
                     # Introduce a 2-second delay before returning the prediction
                     time.sleep(2)
+
+                    # Play audio for the predicted label
+                    self.play_audio(predicted_label)
 
                     return {
                         'prediction': predicted_label,
