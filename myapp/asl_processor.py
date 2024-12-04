@@ -10,8 +10,6 @@ import mediapipe as mp
 import numpy as np
 import pickle
 import time
-import pygame
-from gtts import gTTs
 from concurrent.futures import ThreadPoolExecutor
 
 
