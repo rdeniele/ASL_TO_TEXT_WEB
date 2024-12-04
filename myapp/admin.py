@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.utils.html import format_html
 from .models import Feedback
+from django.urls import reverse
 
 @admin.register(Feedback)
 class FeedbackAdmin(admin.ModelAdmin):
@@ -18,7 +19,8 @@ class FeedbackAdmin(admin.ModelAdmin):
     
     def download_link(self, obj):
         if obj.media_file:
-            return format_html('<a href="{}" download>Download</a>', obj.media_file.url)
+            url = reverse('download_file', args=[obj.pk])
+            return format_html('<a href="{}">Download</a>', url)
         return "No file"
 
     media_preview.short_description = 'Preview'

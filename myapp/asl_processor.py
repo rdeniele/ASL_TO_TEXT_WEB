@@ -2,18 +2,22 @@ from collections import deque
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module='google.protobuf.symbol_database')
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TF warnings
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  
 import tensorflow as tf
-tf.get_logger().setLevel('ERROR')  # Only show errors
+tf.get_logger().setLevel('ERROR')  
 import cv2
 import mediapipe as mp
 import numpy as np
 import pickle
 import time
+import pygame
+from gtts import gTTs
+from concurrent.futures import ThreadPoolExecutor
+
 
 class ASLProcessorBase:
     def __init__(self):
-        self.img_size = 224  # Match the expected input size
+        self.img_size = 224  #input size
         self.mp_hands = mp.solutions.hands
         self.hands = self.mp_hands.Hands(
             static_image_mode=True,
@@ -151,7 +155,7 @@ class ASLProcessorCNN(ASLProcessorBase):
 class ASLProcessorRNN(ASLProcessorBase):
     _instance = None
 
-    def __new__(cls, *args, **kwargs):
+    def __new__(cls):
         if cls._instance is None:
             cls._instance = super(ASLProcessorRNN, cls).__new__(cls)
         return cls._instance
@@ -161,7 +165,7 @@ class ASLProcessorRNN(ASLProcessorBase):
             return
 
         super().__init__()
-        self.sequence_length = 5  # Set the sequence length to 5
+        self.sequence_length = 5  
         self.frame_sequence = deque(maxlen=self.sequence_length)
         self.model_path = "C:/Users/ronde/PROJECTS/ASL_TO_TEXT_WEB/ml_models/rnn_asl_model.h5"
         self.encoder_path = "C:/Users/ronde/PROJECTS/ASL_TO_TEXT_WEB/ml_data/labels/rnn_label_encoder.pkl"
@@ -169,7 +173,7 @@ class ASLProcessorRNN(ASLProcessorBase):
         self.label_encoder = None
         self.load_model_and_encoder()
         self.initialized = True
-        self.paused = False  # Add a paused flag
+        self.paused = False  
 
     def load_model_and_encoder(self):
         if self.model is None or self.label_encoder is None:
@@ -212,7 +216,7 @@ class ASLProcessorRNN(ASLProcessorBase):
                 try:
                     sequence = np.array(list(self.frame_sequence))
                     print(f"Sequence shape before squeeze: {sequence.shape}")
-                    sequence = np.squeeze(sequence, axis=1)  # Remove the extra dimension
+                    sequence = np.squeeze(sequence, axis=1)
                     print(f"Sequence shape after squeeze: {sequence.shape}")
                     sequence = np.expand_dims(sequence, axis=0)
                     print(f"Sequence shape after expand_dims: {sequence.shape}")
@@ -230,11 +234,12 @@ class ASLProcessorRNN(ASLProcessorBase):
                     confidence = float(predictions[0][predicted_class_index])
                     predicted_label = self.label_encoder.inverse_transform([predicted_class_index])[0]
 
-                    # Clear the frame sequence after prediction
                     self.frame_sequence.clear()
-                    self.paused = True  # Pause after prediction
+                    self.paused = True  # Pause
 
-                    # Flash the prediction to the web
+                    # Introduce a 2-second delay before returning the prediction
+                    time.sleep(2)
+
                     return {
                         'prediction': predicted_label,
                         'confidence': confidence
@@ -260,7 +265,6 @@ class ASLProcessorRNN(ASLProcessorBase):
     def resume(self):
         self.paused = False  
 
-# Define ASLProcessor as a factory function to create instances of ASLProcessorCNN or ASLProcessorRNN
 def ASLProcessor(model_type='cnn'):
     if model_type == 'cnn':
         return ASLProcessorCNN()

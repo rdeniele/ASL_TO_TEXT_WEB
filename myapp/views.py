@@ -1,5 +1,5 @@
 # myapp/views.py
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth import login, logout, authenticate
@@ -13,6 +13,8 @@ import time
 from .asl_processor import ASLProcessor
 from .models import Feedback
 from django.core.files.base import ContentFile
+from django.http import HttpResponse, Http404
+
 
 
 asl_processor = ASLProcessor()
@@ -151,6 +153,16 @@ def submit_feedback(request):
                 'success': False,
                 'error': str(e)
             })
+def download_file(request, pk):
+    feedback = get_object_or_404(Feedback, pk=pk)
+    if feedback.media_file:
+        file_path = feedback.media_file.path
+        file_name = feedback.media_file.name.split('/')[-1]
+        with open(file_path, 'rb') as f:
+            response = HttpResponse(f.read(), content_type="application/octet-stream")
+            response['Content-Disposition'] = f'attachment; filename={file_name}'
+            return response
+    raise Http404("File not found")
             
 @csrf_exempt
 def preprocess_media(request):
