@@ -83,9 +83,27 @@ class ASLProcessorBase:
 
     def process_frame(self, frame):
         try:
+            if frame is None or frame.size == 0:
+                return {
+                    'prediction': 'Invalid frame',
+                    'confidence': 0.0
+                }
+
+            frame = frame.copy()
+            
+            frame = cv2.resize(frame, (self.img_size, self.img_size))
+            
             frame = cv2.flip(frame, 1)
             rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            results = self.hands.process(rgb_frame)
+
+            try:
+                results = self.hands.process(rgb_frame)
+            except Exception as mp_error:
+                print(f"MediaPipe processing error: {str(mp_error)}")
+                return {
+                    'prediction': 'Processing error',
+                    'confidence': 0.0
+                }
 
             if not results.multi_hand_landmarks:
                 return {
@@ -93,11 +111,34 @@ class ASLProcessorBase:
                     'confidence': 0.0
                 }
 
-            landmarks = self.extract_landmarks(results.multi_hand_landmarks[0])
-            preprocessed = self.preprocess_landmarks(landmarks)
-            return self.predict(preprocessed)
+            try:
+               
+                landmarks = self.extract_landmarks(results.multi_hand_landmarks[0])
+                
+                if not landmarks or len(landmarks) == 0:
+                    return {
+                        'prediction': 'Invalid landmarks',
+                        'confidence': 0.0
+                    }
+                preprocessed = self.preprocess_landmarks(landmarks)
+                
+                if preprocessed is None:
+                    return {
+                        'prediction': 'Preprocessing failed',
+                        'confidence': 0.0
+                    }
+                    
+                return self.predict(preprocessed)
+                
+            except Exception as e:
+                print(f"Landmark processing error: {str(e)}")
+                return {
+                    'prediction': 'Processing error',
+                    'confidence': 0.0
+                }
+                
         except Exception as e:
-            print(f"Error processing frame: {str(e)}")
+            print(f"Frame processing error: {str(e)}")
             return {
                 'prediction': 'Error',
                 'confidence': 0.0
@@ -255,7 +296,6 @@ class ASLProcessorRNN(ASLProcessorBase):
                     self.frame_sequence.clear()
                     self.paused = True  # Pause
 
-                    # Introduce a 2-second delay before returning the prediction
                     time.sleep(2)
 
                     # Play audio for the predicted label
